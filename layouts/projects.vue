@@ -1,9 +1,8 @@
 <template>
     <div>
-        <h1>
-            Services
-        </h1>
-        <HomeNuxt />
+        <h1>Projects Page</h1>
+        <hr>
+        <slot />
     </div>
 </template>
 

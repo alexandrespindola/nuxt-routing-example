@@ -5,6 +5,9 @@
 </template>
 
 <script lang="ts" setup>
+definePageMeta({
+    layout: 'about',
+})
 </script>
 
 <style scoped lang="scss">

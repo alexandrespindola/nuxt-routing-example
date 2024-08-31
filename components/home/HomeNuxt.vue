@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Home Nuxt</h1>
+        <h1>Text from HomeNuxt</h1>
     </div>
 </template>
 
