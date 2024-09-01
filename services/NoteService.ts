@@ -1,5 +1,5 @@
 export default class NoteService {
-  private base_uri: string = "http://localhost:3000/api/notes";
+  private base_uri: string = "/api/notes";
 
   public async getNote() {
     const uri = this.base_uri;
