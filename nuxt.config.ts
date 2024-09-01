@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         '/contact',
         '/projects',
       ]
-    }
-  }
+    },
+    plugins: ['~/server/index.ts'],
+  }  
 })
