@@ -1,9 +1,6 @@
 [build]
-  publish = ".nuxt/dist/client"
+  publish = ".output/public"
   command = "yarn generate"
-
-[functions]
-  directory = ".output/server/functions"
 
 [[redirects]]
   from = "/*"
