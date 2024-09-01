@@ -1,6 +1,9 @@
 [build]
-  publish = "dist"
+  publish = ".output/public"
   command = "yarn generate"
+
+[functions]
+  directory = ".output/server/functions"
 
 [[redirects]]
   from = "/*"
