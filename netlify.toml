@@ -1,5 +1,5 @@
 [build]
-  publish = ".output/public"
+  publish = ".nuxt/dist/client"
   command = "yarn generate"
 
 [functions]
